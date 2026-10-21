@@ -1,0 +1,9 @@
+Atelier des mots V1.3
+
+Remplacez uniquement index.html à la racine du dépôt GitHub FJP6/atelier-des-mots.
+
+Nouveautés : six rubriques visibles en haut, nouveaux noms, migration des anciennes rubriques, transcription vocale lorsque SpeechRecognition est pris en charge, sinon dictée par le microphone du clavier iPhone.
+
+IMPORTANT : Safari iPhone ne prend pas toujours en charge la reconnaissance vocale directe dans une page web. Dans ce cas, touchez le champ Mon texte puis le micro du clavier iOS. Ce mode écrit directement le texte mais ne crée pas de copie brute indépendante.
+
+Les textes existants restent stockés localement dans le navigateur et sont migrés à l’ouverture. Faites une sauvegarde JSON avant la mise à jour. Ne mettez jamais les fichiers JSON privés dans le dépôt GitHub public.
