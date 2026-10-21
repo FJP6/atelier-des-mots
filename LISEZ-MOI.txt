@@ -1,9 +1,10 @@
-Atelier des mots V1.3
+L’Atelier des mots V1.4 — iPhone en priorité
 
-Remplacez uniquement index.html à la racine du dépôt GitHub FJP6/atelier-des-mots.
+1. AVANT TOUT : dans la version actuelle, exportez votre bibliothèque JSON et conservez-la dans iCloud Drive.
+2. Dans GitHub FJP6/atelier-des-mots, remplacez uniquement index.html à la racine de main.
+3. Attendez GitHub Pages, puis rechargez Safari.
+4. Testez Écrire, Dicter (micro du clavier iPhone), Tous mes textes, Rubriques, Réglages.
 
-Nouveautés : six rubriques visibles en haut, nouveaux noms, migration des anciennes rubriques, transcription vocale lorsque SpeechRecognition est pris en charge, sinon dictée par le microphone du clavier iPhone.
-
-IMPORTANT : Safari iPhone ne prend pas toujours en charge la reconnaissance vocale directe dans une page web. Dans ce cas, touchez le champ Mon texte puis le micro du clavier iOS. Ce mode écrit directement le texte mais ne crée pas de copie brute indépendante.
-
-Les textes existants restent stockés localement dans le navigateur et sont migrés à l’ouverture. Faites une sauvegarde JSON avant la mise à jour. Ne mettez jamais les fichiers JSON privés dans le dépôt GitHub public.
+Sauvegarde automatique locale : même clé que les versions précédentes. Le fichier atelier-des-mots.json est exporté avec un nom fixe, mais iOS peut créer une copie ou demander confirmation, et aucun écrasement iCloud automatique n’est possible.
+La dictée via clavier iOS nécessite que le clavier soit affiché ; le bouton de transcription Web peut être indisponible dans Safari.
+La sauvegarde n’est pas synchronisée entre appareils.
